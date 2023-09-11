@@ -1,0 +1,30 @@
+{
+  "name": "esp32-webserver-example",
+  "$schema": "https://bud.js.org/bud.package.json",
+  "description": "project bootstrapped with @roots/create-bud-app",
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talss89/esp32-webserver-example.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "browserslist": [
+    "extends @roots/browserslist-config"
+  ],
+  "scripts": {
+    "build": "bud build production",
+    "dev": "bud build development"
+  },
+  "devDependencies": {
+    "@roots/bud": "^6.16.1",
+    "@roots/bud-postcss": "^6.16.1",
+    "@roots/bud-tailwindcss": "^6.16.1",
+    "bud-embedded": "^0.0.10"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
